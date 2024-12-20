@@ -14,38 +14,36 @@ _Useful tips when navigating through your repository._
 </header>
 
 <!--
-  <<< Author notes: Step 2 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
+  <<< Author notes: Finish >>>
+  Review what we learned, ask for feedback, provide next steps.
 -->
 
-## Step 2: Find a commit in history
+## Finish
 
-_Thanks for the duplicate note :wave:_
+_Congratulations friend, you've completed this course! :tada:_
 
-An important part of version control is the ability to look into the past. By using `git blame`, and finding the story behind a commit, we're able to do more than _blame_ people for code. We're able to see the story around why a commit was made. What is the associated pull request? Who approved the pull request? What tests were run on that commit before it was merged?
+<img src="https://octodex.github.com/images/collabocats.jpg" alt=celebrate width=300 align=right>
 
-The obvious reason to find things in history is to know about the history. With issues and pull requests, we see a more complete story about the history, not just the bare minimum.
+In this course, you've learned a lot about finding and sharing information. Within a GitHub repository, you can find history about what changes were made, and more importantly, _why_ changes were made.
 
-### What's `git blame`?
+### What's next?
 
-`git blame` is a Git functionality that shows what revision and author last modified each line of a file. Information like who made a commit, when, and even why can be found this way. If you aren't sure who introduced certain changes to a file, you can use `git blame` to find out. While `git blame` sounds rather accusatory, this can be used to understand the context around decisions.
+You can enable GitHub Pages and see `docs/index.html` as a website!
 
-### What's a Secure Hash Algorithm (SHA)?
+1. Replace `USERNAME` with your GitHub username and `REPONAME` with your GitHub repository name in `docs/index.html`.
+1. Under your repository name at the upper right, click :gear: **Settings**.
+1. Then on the lower left, click **Pages**.
+1. In the **GitHub Pages** section, select `main` in the **Select branch** drop-down menu and `/docs` in the **Select folder** drop-down menu.
+1. Click the **Save** button.
+1. Wait about 30 seconds then refresh the page. When you see "Your site is published at ...," you can click on the link to see your published site.
 
-A SHA is a reference to a specific object. In this case, it's a reference to a commit. On GitHub, you can look at a specific commit to see the changes introduced, by whom, and if they were a part of a pull request.
+Check out these resources to learn more or get involved:
 
-### :keyboard: Activity: Find commit in history
-
-1. Navigate to the Code tab of your repository
-   - _Tip: you may have previously created your repository in a new tab_
-2. Click `docs` to navigate into the `/docs` directory
-3. Click `_sidebar.md` to view the file
-4. On the top of the file, click **Blame** to see the details of the most recent revision
-5. Click the commit message, `add sidebar to documentation` to see the commit details
-6. Copy the first seven characters of the SHA (the first 7 characters of the 40 character hexadecimal string listed after `commit`)
-7. Comment on issue #2 by adding the SHA from step 6 as a comment text and click on "Comment" button
-8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+- Are you a student? Check out the [Student Developer Pack](https://education.github.com/pack).
+- We'd love to hear what you thought of this course in our [discussion board](https://github.com/orgs/skills/discussions/categories/connect-the-dots).
+- [Take another GitHub Skills course](https://github.com/skills).
+- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
+- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 <footer>
 
